@@ -9,18 +9,18 @@ class Song
  attr_accessor :song_hash, :artist, :genre
  
  
-  def initialize(name, artist, genre)
+  def initialize(song_name, artist, genre)
     @song_hash = {}
     @@count += 1 
   end
  
-  def name
-    @name = name
+  def song_name
+    @song_name = song_name
   end
   
-  def add_song(name, artist, genre)
-    song_hash[name] ||= []
-    song_hash[name] << [artist, genre]
+  def add_song(song_name, artist, genre)
+    song_hash[song_name] ||= []
+    song_hash[song_name] << [artist, genre]
   end
   
   def genre(genre)
