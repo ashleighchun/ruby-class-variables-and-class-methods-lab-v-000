@@ -13,6 +13,7 @@ class Song
     @song_hash = {}
     @name = song_name
     @artist = artist
+    @@artists << artist
     @genre = genre
     @@count += 1 
   end
