@@ -11,6 +11,7 @@ class Song
  
   def initialize(song_name, artist, genre)
     @song_hash = {}
+    @song_name
     @artist
     @genre 
     @@count += 1 
