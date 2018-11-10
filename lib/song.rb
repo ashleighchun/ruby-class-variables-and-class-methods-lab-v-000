@@ -22,5 +22,5 @@ class Song
     @@artists = artists
   end
   
-binding.pry
+#binding.pry
 end
