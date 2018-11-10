@@ -14,8 +14,8 @@ class Song
     @@count += 1 
   end
  
-  def name
-    @name = name
+  def song_name
+    @song_name = song_name
   end
   
   def add_song(song_name, artist, genre)
