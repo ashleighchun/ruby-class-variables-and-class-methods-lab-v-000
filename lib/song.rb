@@ -20,6 +20,9 @@ class Song
     @@count
   end
   
+  def genre=(genre)
+    @genre = genre
+    @@genres << genre
 
   
 #binding.pry
