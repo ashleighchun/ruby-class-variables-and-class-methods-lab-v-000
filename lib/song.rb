@@ -27,11 +27,13 @@ class Song
   
   
  
-  def self.count
+  def self.count #class method
     @@count
   end
   
-
+  def self.artists
+    @@artists    
+  end
   
 #binding.pry
 end
