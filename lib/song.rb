@@ -8,7 +8,7 @@ class Song
  
  attr_accessor :artist, :genre
  
- GENRES = []
+ #GENRES = []
  
   def initialize(artist, genre)
     @artist = artist
@@ -23,6 +23,7 @@ class Song
   def genre=(genre)
     @genre = genre
     @@genres << genre
+  end
 
   
 #binding.pry
