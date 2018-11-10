@@ -32,7 +32,7 @@ class Song
   end
   
   def self.artists
-    @@artists    
+    @@artists.    
   end
   
 #binding.pry
