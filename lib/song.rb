@@ -9,7 +9,7 @@ class Song
  attr_accessor :song_hash, :artist, :genre
  
  
-  def initialize(song_name)
+  def initialize(song_name, artist, genre)
     @song_hash = {}
     @@count += 1 
   end
