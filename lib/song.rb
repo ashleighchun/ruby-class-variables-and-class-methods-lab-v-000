@@ -8,6 +8,8 @@ class Song
  
  attr_accessor :artist, :genre
  
+ GENRES = []
+ 
   def initialize(artist, genre)
     @artist = artist
     @genre = genre
