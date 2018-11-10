@@ -11,16 +11,13 @@ class Song
  
   def initialize(song_name, artist, genre)
     @song_hash = {}
-    @song_name
-    @artist
-    @genre 
+    @song_name = song_name
+    @artist = artist
+    @genre = genre
     @@count += 1 
   end
  
-  def song_name
-    @song_name = song_name
-  end
-  
+ 
   def add_song(song_name, artist, genre)
     song_hash[song_name] ||= []
     song_hash[song_name] << [artist, genre]
