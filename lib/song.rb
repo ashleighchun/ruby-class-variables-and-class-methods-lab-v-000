@@ -14,8 +14,8 @@ class Song
     @@count
   end
   
-  def artists=(artists)
-    @@artists = artists
+  def artist=(artist)
+    :artist = artist
   end
   
 binding.pry
