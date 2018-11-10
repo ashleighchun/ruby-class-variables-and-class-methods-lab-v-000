@@ -23,13 +23,7 @@ class Song
     song_hash[song_name] << [artist, genre]
   end
   
-  def genre(genre)
-    song_hash[genre]
-  end
   
-  def artist(artist)
-    song_hash[artist]
-  end
  
   def self.count
     @@count
