@@ -4,7 +4,7 @@ class Song
   @@artists
   @@genres 
  
- #attr_accessor(:name, :artist, :genre)
+ attr_accessor(:name, :artist, :genre)
  
   def initialize
     @@count += 1
@@ -12,6 +12,10 @@ class Song
  
   def self.count
     @@count
+  end
+  
+  def artist=(artist)
+    @@artist = artist
   end
 binding.pry
 end
