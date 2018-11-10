@@ -20,7 +20,7 @@ class Song
   
   def add_song(song_name, artist, genre)
     song_hash[song_name] ||= []
-    song_hash[song_name] << artist, genre
+    song_hash[song_name] << [artist, genre]
   end
   
   def genre(genre)
